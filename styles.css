@@ -55,13 +55,17 @@ section {
 
 .content {
   display: flex;
-  flex-direction: column;
   align-items: center;
 }
 
-.content img {
-  width: 200px;
-  height: auto;
+.contentImg {
+  width: 50%;
+  height: 500px;
+  margin: 10px;
+} 
+
+.contentText {
+  width:50%;
   margin: 10px;
 }
 
